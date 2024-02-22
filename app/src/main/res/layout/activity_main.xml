@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/buttonCreateDatabase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create Database" />
+
+        <Button
+            android:id="@+id/buttonDeleteDatabase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete Database" />
+
+        <Button
+            android:id="@+id/buttonCreateTable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create Table" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonDeleteTable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Delete Table" />
+
+            <EditText
+                android:id="@+id/editTextDelete"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Type Table to delete"
+                android:inputType="text" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonInsertRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Insert Row to tbllop" />
+
+        <Button
+            android:id="@+id/buttonDeleteRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete Row From tbllop" />
+
+        <Button
+            android:id="@+id/buttonUpdateRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Row to tbllop" />
+
+        <Button
+            android:id="@+id/buttonQueryingData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Querying data tbllop" />
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextAddress"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:ems="10"
+            android:hint="Address"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextPhone"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:ems="10"
+            android:hint="Phone"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/buttonInsertStudent"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="Insert Student" />
+
+        <Button
+            android:id="@+id/buttonQueryingSinhvien"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Querying Sinhvien by malop" />
+
+        <Button
+            android:id="@+id/buttonView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
